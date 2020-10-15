@@ -21,23 +21,31 @@ namespace Part_5
 
         private void frmIfStatements_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void txtAGE_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
             if (Age >= 18)
                 lblResult1.Text = "You are an adult";
-           
+
             else if (Age <= 5)
                 lblResult1.Text = "You are a toddler";
-           
+
             else if (Age <= 10)
                 lblResult1.Text = "You are a child";
-           
+
             else if (Age >= 12)
                 lblResult1.Text = "You are a preteen";
-        }
+
+           
         }
     }
+}
+    
 

@@ -31,6 +31,7 @@
             this.txtAGE = new System.Windows.Forms.TextBox();
             this.lblText1 = new System.Windows.Forms.Label();
             this.lblResult1 = new System.Windows.Forms.Label();
+            this.btnSubmit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtAGE
@@ -60,12 +61,23 @@
             this.lblResult1.Size = new System.Drawing.Size(0, 21);
             this.lblResult1.TabIndex = 7;
             // 
+            // btnSubmit
+            // 
+            this.btnSubmit.Location = new System.Drawing.Point(187, 53);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(75, 23);
+            this.btnSubmit.TabIndex = 8;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
+            // 
             // frmIfStatements
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Orange;
             this.ClientSize = new System.Drawing.Size(430, 450);
+            this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.lblResult1);
             this.Controls.Add(this.lblText1);
             this.Controls.Add(this.txtAGE);
@@ -82,6 +94,7 @@
         private System.Windows.Forms.TextBox txtAGE;
         private System.Windows.Forms.Label lblText1;
         private System.Windows.Forms.Label lblResult1;
+        private System.Windows.Forms.Button btnSubmit;
     }
 }
 
