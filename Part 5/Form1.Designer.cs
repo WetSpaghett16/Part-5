@@ -30,7 +30,6 @@
         {
             this.txtAGE = new System.Windows.Forms.TextBox();
             this.lblText1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.lblResult1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -52,15 +51,6 @@
             this.lblText1.TabIndex = 3;
             this.lblText1.Text = "Enter Stage Of Life:";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(285, 211);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Submit Answers";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // lblResult1
             // 
             this.lblResult1.AutoSize = true;
@@ -75,9 +65,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Orange;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(430, 450);
             this.Controls.Add(this.lblResult1);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblText1);
             this.Controls.Add(this.txtAGE);
             this.Name = "frmIfStatements";
@@ -92,7 +81,6 @@
 
         private System.Windows.Forms.TextBox txtAGE;
         private System.Windows.Forms.Label lblText1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lblResult1;
     }
 }
